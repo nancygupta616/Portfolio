@@ -8,7 +8,6 @@ import github from "../assets/github.svg";
 import react from "../assets/react-svgrepo-com.svg";
 import tailwind from "../assets/tailwind.svg";
 import figma from "../assets/figma.svg";
-import linux from "../assets/linux.svg";
 
 const Skills = () => {
   const tech = [
@@ -73,7 +72,7 @@ const Skills = () => {
             Skills
           </h1>
         </div>
-        <div className="box-cont w-full grid mt-20 grid-cols-2 sm:grid-cols-3 gap-10 text-center py-8 px-12 sm:px-0">
+        <div className="box-cont w-full grid mt-20 grid-cols-2 sm:grid-cols-3 gap-10 text-center py-1 px-12 sm:px-0">
           {tech.map(({ id, src, style, title }) => (
             <div
               key={id}
