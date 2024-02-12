@@ -43,12 +43,12 @@ const Projects = () => {
 
 
     return (
-        <div name="projects" className='bg-gradient-to-b from-black to-black w-full text-white pt-20 md:h-screen'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full'>
-                <div className='mt-8 lg:pt-20 pb-8 pt-10'>
-                    <h1 className='text-4xl text-red-600 font-extrabold border-b-4 border-red-600 p-2 inline z-10'>Projects</h1>
+        <div name="projects" className='bg-gradient-to-b from-black to-black w-full text-white md:h-screen'>
+            <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center w-full h-full'>
+                <div className='mt-8'>
+                    <h1 className='text-4xl text-red-600 font-extrabold border-b-4 border-red-600 p-2 inline'>Projects</h1>
                 </div>
-                <div className='grid sm:grid-cols-2 mt-20 md:grid-cols-3 gap-8 px-12 sm:px-0 z-10'>
+                <div className='grid sm:grid-cols-2 mt-20 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {projects.map(({ id, src, demoSrc, codeSrc }) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <a href={demoSrc}><img src={src} alt="" className='rounded-md duration-200 cursor-pointer hover:scale-105' /></a>
