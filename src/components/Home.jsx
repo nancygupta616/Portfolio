@@ -52,20 +52,13 @@ const Home = () => {
             </span>
           </h2>
         </h1>
-          {/* <p className='text-gray-300 py-4 text-lg max-w-md md:my-6 md:leading-7 text-justify z-10'>
-            I'm an Experienced Web Developer with a strong focus on Front-End development. Proficiency in HTML, CSS, JavaScript, C++ with a deep understanding of modern web standards and best practices..
-            <p className='text-gray-300 max-w-md md:my-6 md:leading-7 hidden lg:block z-10'>
-              As a Web Developer and fervent Tech Enthusiast, I am driven by the exploration of the boundless opportunities within the realm of Web Development. 🌐🚀
-            </p>
-          </p> */}
-
           <div className='flex gap-6'>
-            <button onClick={handleEmailClick} className='btn group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer z-10'>
+            <button onClick={handleEmailClick} className='btn group text-white font-extrabold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-600 cursor-pointer z-10'>
               Contact <span className='ml-2 group-hover:translate-x-1 group-hover:translate-y-[-0.25rem] duration-500 z-12'><MdArrowOutward />
               </span>
             </button>
             <a href={cv} download="CV_Nancy.pdf">
-              <button onClick={handleCvDownload} className='btn group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 cursor-pointer z-12'>
+              <button onClick={handleCvDownload} className='btn group text-white font-extrabold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-600 cursor-pointer z-12'>
                 Resume <span className='ml-2 group-hover:translate-y-1 duration-500'><FaFileDownload /> </span>
               </button>
             </a>

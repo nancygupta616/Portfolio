@@ -18,6 +18,10 @@ const About = () => {
             As a Web Developer and fervent Tech Enthusiast, I am driven by the
             exploration of the boundless opportunities within the realm of Web
             Development. 🌐🚀
+            I'm an Experienced Web Developer with a strong focus on Front-End development. 
+            Proficiency in HTML, CSS, JavaScript, C++ with a deep understanding of modern web standards and best practices..
+            As a Web Developer and fervent Tech Enthusiast, I am driven by the exploration of the boundless opportunities within 
+            the realm of Web Development. 🌐🚀
           </p>
           <br />
           <p>
@@ -26,7 +30,10 @@ const About = () => {
             self-improvement, I am on the lookout for a platform that fosters
             growth and acceleration in the ever-evolving landscape of #WebDev
             and #JavaScript.
+            Eager to contribute to cutting-edge projects and motivated by the pursuit of excellence, 
+            I bring a dynamic blend of academic knowledge and practical experience to any development team.
           </p>
+          
         </div>
       </div>
     </div>
