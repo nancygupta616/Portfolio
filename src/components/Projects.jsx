@@ -57,25 +57,24 @@ const Projects = () => {
            className="absolute inset-0 w-full h-full object-cover object-center"
            src={project.image}
            />
-         <div className="text-white px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-          <h2 className="text-white tracking-widest text-sm title-font font-medium mb-1">
+         <div className="text-white px-8 py-10 relative z-10 w-full border-4 border-gray-600 bg-black opacity-0 hover:opacity-100">
+          <h2 className="text-white tracking-widest title-font text-lg font-extrabold mb-1">
             {project.title}
           </h2>
-          <h1 className="title-font text-lg font-medium text-white mb-3">
+          <h1 className="title-font font-medium text-white mb-3">
             {project.subtitle}
           </h1>
           <p className="leading-relaxed">{project.description}</p>
-            <button className='w-1/2 px-6 py-1 m-1 duration-200 hover:scale-105 bg-blue-500 rounded-xl'>
+            <button className='w-1/2 px-6 py-1 m-3 duration-200 hover:scale-105 bg-blue-500 rounded-xl'>
             <a href={project.link} target= "_blank">Demo</a>
             </button>
-            <button className='w-1/2 px-6 py-1 m-1 duration-200 hover:scale-105 bg-red-800 rounded-xl'>
+            <button className='w-1/2 px-6 py-1 m-3 duration-200 hover:scale-105 bg-red-800 rounded-xl'>
               <a>Code</a>
             </button>
       </div>   
   </div>
 </a>
 ))}
-
       </div>
     </div>
   </section>

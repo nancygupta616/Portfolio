@@ -39,7 +39,7 @@ const Home = () => {
           <h2 className='text-3xl sm:text-5xl h-20 font-bold text-white z-10 mt-10 mb-7'>
             <span className='text-red-600 z-10'>
               <Typewriter
-                words={['React Front-End Development', 'Designing', ' Web Developer', ' Front-End Developer']}
+                words={['React Front-End Developer', 'Designing', ' Web Developer', ' Front-End Developer']}
                 loop={Infinity}
                 cursor
                 cursorStyle='|'
@@ -53,12 +53,12 @@ const Home = () => {
           </h2>
         </h1>
           <div className='flex gap-6'>
-            <button onClick={handleEmailClick} className='btn group text-white font-extrabold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-600 cursor-pointer z-10'>
+            <button onClick={handleEmailClick} className='btn group text-white font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-600 cursor-pointer z-10'>
               Contact <span className='ml-2 group-hover:translate-x-1 group-hover:translate-y-[-0.25rem] duration-500 z-12'><MdArrowOutward />
               </span>
             </button>
             <a href={cv} download="CV_Nancy.pdf">
-              <button onClick={handleCvDownload} className='btn group text-white font-extrabold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-600 cursor-pointer z-12'>
+              <button onClick={handleCvDownload} className='btn group text-white font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-600 cursor-pointer z-12'>
                 Resume <span className='ml-2 group-hover:translate-y-1 duration-500'><FaFileDownload /> </span>
               </button>
             </a>
