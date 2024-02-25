@@ -92,4 +92,4 @@ const TSParticles = () => {
     )
 }
 
-export default TSParticles
+export default TSParticles;

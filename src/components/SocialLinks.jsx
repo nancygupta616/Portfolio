@@ -16,10 +16,11 @@ const SocialLinks = () => {
             style: 'bg-blue-500'
         },
         {
-            id: 2, child: ( 
-            <> 
-            GitHub <FaGithub size={30}/> 
-            </> 
+            id: 2, 
+            child: ( 
+               <> 
+               GitHub <FaGithub size={30}/> 
+               </> 
             ), 
             href: "https://github.com/nancygupta616", 
             style: 'bg-black'
