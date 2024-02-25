@@ -15,25 +15,20 @@ const About = () => {
         </div>
         <div className="text-xl text-pretty my-10">
           <p>
-            As a Web Developer and fervent Tech Enthusiast, I am driven by the
-            exploration of the boundless opportunities within the realm of Web
-            Development. 🌐🚀
-            I'm an Experienced Web Developer with a strong focus on Front-End development. 
-            Proficiency in HTML, CSS, JavaScript, C++ with a deep understanding of modern web standards and best practices..
-            As a Web Developer and fervent Tech Enthusiast, I am driven by the exploration of the boundless opportunities within 
-            the realm of Web Development. 🌐🚀
+          As a seasoned Web Developer and ardent Tech Enthusiast, I am deeply passionate 
+          about navigating the vast opportunities within the realm of Web Development. 
+          With a dedicated focus on Front-End development, I possess a mastery of HTML, CSS, JavaScript, Angular, and React, 
+          complemented by an extensive grasp of contemporary web standards and best practices.
           </p>
           <br />
           <p>
-            My passion lies in pushing the boundaries of innovation and
-            continuously enhancing my skills. Obsessed with the notion of
-            self-improvement, I am on the lookout for a platform that fosters
-            growth and acceleration in the ever-evolving landscape of #WebDev
-            and #JavaScript.
-            Eager to contribute to cutting-edge projects and motivated by the pursuit of excellence, 
-            I bring a dynamic blend of academic knowledge and practical experience to any development team.
-          </p>
-          
+          My fervor lies in relentlessly pushing the boundaries of innovation and perpetually honing my craft. 
+          Driven by an insatiable thirst for self-improvement, I actively seek out platforms that foster growth and propel 
+          advancement in the dynamic domains of #WebDev and #JavaScript.
+          Eager to make meaningful contributions to cutting-edge projects, I am propelled by an unwavering commitment to excellence. 
+          I bring to the table a dynamic fusion of academic prowess and hands-on experience, thriving amidst challenges and 
+          embracing them as catalysts for personal and professional growth.
+          </p>          
         </div>
       </div>
     </div>

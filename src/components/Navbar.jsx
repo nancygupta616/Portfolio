@@ -44,9 +44,14 @@ const Navbar = () => {
         {links.map(({ link, id }) => (
           <li
             key={id}
-            className=" px-4 cursor-pointer capitalize text-white title-font font-bold font-large hover:scale-125 duration-200 border-b-4 mb-0 md:mb-0 ml-2 text-xl border-transparent hover:border-red-600 transition"
-          >
-            <Link to={link} smooth duration={500}>
+            className="px-4 cursor-pointer capitalize text-white title-font font-bold font-large hover:scale-125 duration-200 mb-0 md:mb-0 ml-2 text-xl"
+            style={{ borderBottom: '0px solid transparent' }}>
+          <Link
+           to={link}
+           smooth
+           duration={500}
+           className="border-b-4 border-transparent hover:border-red-600 transition inline-block"
+           style={{ paddingBottom: '6px' }}>
               {link}
             </Link>
           </li>

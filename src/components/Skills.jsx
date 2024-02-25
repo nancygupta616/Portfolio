@@ -1,13 +1,13 @@
 import React from "react";
-import cpp from "../assets/Cpp.svg";
 import html from "../assets/html.svg";
 import css from "../assets/css-3-svgrepo-com.svg";
 import js from "../assets/javascript.svg";
-import git from "../assets/git.svg";
 import github from "../assets/github.svg";
 import react from "../assets/react-svgrepo-com.svg";
 import tailwind from "../assets/tailwind.svg";
 import figma from "../assets/figma.svg";
+import bootstrap from "../assets/bootstrap.svg";
+import netlify from "../assets/netlify.svg";
 
 const Skills = () => {
   const tech = [
@@ -37,9 +37,9 @@ const Skills = () => {
     },
     {
       id: 5,
-      src: git,
-      title: "Git",
-      style: "shadow-orange-500",
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-500",
     },
     {
       id: 6,
@@ -58,6 +58,12 @@ const Skills = () => {
       src: figma,
       title: "Figma",
       style: "shadow-green-800",
+    },
+    {
+      id: 9,
+      src: netlify,
+      title: "Netlify",
+      style: "shadow-blue-400",
     },
   ];
 
