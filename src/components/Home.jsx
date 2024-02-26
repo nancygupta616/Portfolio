@@ -39,7 +39,7 @@ const Home = () => {
           <h2 className='text-3xl sm:text-5xl h-20 font-bold text-white z-10 mt-10 mb-7'>
             <span className='text-red-600 z-10'>
               <Typewriter
-                words={['React Front-End Developer', 'Designing', ' Web Developer', ' Front-End Developer']}
+                words={['Front-End Developer', 'Designing', 'React Developer', 'Web Developer']}
                 loop={Infinity}
                 cursor
                 cursorStyle='|'
