@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -27,6 +29,29 @@ const Navbar = () => {
       link: "contact",
     },
   ];
+
+  const SocialLinks = [
+    {
+        id: 1,
+        child: (
+            <>
+             <FaLinkedin size={30}/>
+            </>
+        ),
+        href: "https://www.linkedin.com/in/nancy-gupta-8b2349163/",
+        style: 'bg-blue-500'
+    },
+    {
+        id: 2, 
+        child: ( 
+           <> 
+            <FaGithub size={30}/> 
+           </> 
+        ), 
+        href: "https://github.com/nancygupta616", 
+        style: 'bg-black'
+    },        
+]
 
   return (
     <div className="flex justify-evenly items-center w-full h-20 px-4 text-white bg-black opacity-90 fixed gap-40 z-20">
@@ -86,6 +111,14 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          {SocialLinks.map(({id,child, href})=>(
+                <li key={id} className={'flex justify-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300'}>
+                <a href={href} className='flex justify-center w-full text-white'
+                target='_blank'>
+                {child}
+                </a>
+            </li>
+            ))};
         </ul>
       )}
     </div>

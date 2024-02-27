@@ -52,7 +52,7 @@ const Home = () => {
             </span>
           </h2>
         </h1>
-          <div className='flex gap-6'>
+          <div className='flex gap-6 justify-center lg:justify-start'>
             <button onClick={handleEmailClick} className='btn group text-white font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-600 cursor-pointer z-10'>
               Contact <span className='ml-2 group-hover:translate-x-1 group-hover:translate-y-[-0.25rem] duration-500 z-12'><MdArrowOutward />
               </span>

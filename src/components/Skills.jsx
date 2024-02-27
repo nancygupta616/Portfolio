@@ -73,7 +73,7 @@ const Skills = () => {
       className="bg-gradient-to-b from-black to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center items-center w-full h-full text-white">
-        <div>
+        <div className='mt-8 pt-20'>
           <h1 className="text-4xl text-red-600 font-extrabold border-b-4 border-red-600 p-2 inline">
             Skills
           </h1>

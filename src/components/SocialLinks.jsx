@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SocialLinks = () => {
 
@@ -43,4 +42,4 @@ const SocialLinks = () => {
   )
 }
 
-export default SocialLinks
+export default SocialLinks;
