@@ -112,13 +112,13 @@ const Navbar = () => {
             </li>
           ))}
           {SocialLinks.map(({id,child, href})=>(
-                <li key={id} className={'flex justify-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300'}>
+                <li key={id} className={'flex justify-center mt-5 w-40 h-14 px-4 ml-[-10px] hover:rounded-md hover:ml-[-10px] duration-300'}>
                 <a href={href} className='flex justify-center w-full text-white'
                 target='_blank'>
                 {child}
                 </a>
             </li>
-            ))};
+            ))}
         </ul>
       )}
     </div>
