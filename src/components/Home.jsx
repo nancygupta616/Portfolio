@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import hero from '../assets/image.svg';
 import { FaFileDownload } from "react-icons/fa";
 import { Typewriter } from 'react-simple-typewriter';

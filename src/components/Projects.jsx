@@ -1,4 +1,3 @@
-import React from 'react'
 import { projects } from "../data";
 
 
@@ -31,10 +30,10 @@ const Projects = () => {
           </h1>
           <p className="leading-relaxed">{project.description}</p>
             <button className='w-1/2 px-6 py-1 m-3 duration-200 hover:scale-105 bg-blue-500 rounded-xl'>
-            <a href={project.link} target= "_blank">Demo</a>
+            <a href={project.link} target= "_blank" rel="noreferrer">Demo</a>
             </button>
             <button className='w-1/2 px-6 py-1 m-3 duration-200 hover:scale-105 bg-red-800 rounded-xl'>
-              <a href={project.codeLink} target= "_blank">Code</a>
+              <a href={project.codeLink} target= "_blank" rel="noreferrer">Code</a>
             </button>
       </div>   
   </div>
