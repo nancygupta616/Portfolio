@@ -3,7 +3,7 @@ import hero from '../assets/image.svg';
 import { FaFileDownload } from "react-icons/fa";
 import { Typewriter } from 'react-simple-typewriter';
 import { MdArrowOutward } from "react-icons/md";
-import cv from "../assets/CV_Nancy.pdf";
+import cv from "../assets/nancy_software.pdf";
 import './imageHoverAnimation.css';
 import './customMedia.css';
 
